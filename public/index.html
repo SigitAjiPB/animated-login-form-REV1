@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Document</title>
+</head>
+<body class="font-Roboto text-white">
+    <div class="relative h-[100vh] grid items-center">
+        <img class="w-[100%] h-[100%] absolute object-cover object-center" src="./asset img/login-bg.jpg.jpg" alt="">
+
+        <form action="" class="relative px-4 w-[85%] py-8 m-auto bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 sm:w-[45%]">
+            <h1 class="text-center font-bold text-3xl mb-8">Login</h1>
+
+            <div class="login-box">
+
+                <!-- ============= Email Input ============== -->
+                <div class="login-content grid mb-4 gap-3">
+                    <span class="material-symbols-outlined">person</span>
+                    
+                    <div class="login-box-input grid items-center gap-2 border-b relative">
+                        <input type="email" placeholder=" " class="required:@: p-2 bg-transparent w-[100%] text-white relative z-[1]" >
+                        <label for="" class="login-label absolute text-white z-10 left-0 duration-75">Email</label>
+                    </div>  
+                </div>
+
+
+                <!-- ========== password input =========== -->
+                <div class="login-content grid mb-4 gap-3">
+                    <span class="material-symbols-outlined">lock</span>
+                    
+                    <div class="login-box-input grid  items-center gap-2 border-b relative">
+                        <input type="password" placeholder=" " class=" p-2 bg-transparent w-[100%] text-white relative z-[1]" >
+                        <label for="" class="login-label absolute text-white z-10 left-0 duration-75">password</label>
+                        <span class="material-symbols-outlined absolute right-0 cursor-pointer z-10 p-2">visibility_off</span>
+                        
+                        
+                    </div>  
+                </div>
+
+                <!-- ============== login check input ============= -->
+                <div class="login-check-container flex items-center justify-between text-[12px]">
+                    <div class="login-check-box flex items-center justify-between gap-2">
+                        <input type="checkbox" class="login-check-input">
+                        <label for="" class="login-label">Remember me</label>
+                    </div>
+                    
+                    <a href="#" class="login-forget hover:underline">Forgot password?</a>
+                </div>
+
+            </div>
+
+            <!-- ========== Register section ========== -->
+            <button class="login-button flex mx-auto my-4 py-2 px-8 text-xl bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 sm:w-[45%] items-center justify-center">Login</button>
+
+            <p class="login-register text-[12px] mt-6">
+                Don't have an account? <a href="#" class="login-register hover:underline">Register</a> 
+            </p>
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
